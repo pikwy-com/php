@@ -2,7 +2,10 @@ Pikwy - Online Solution to create Screenshot <br>
 <a style="color:white" href="https://pikwy.com/api.html">Documentation</a><br>
 
 PHP examples:<br>
-function SiteScreenshot($token, $url, $width, $height, $response_type = 'image') {
+
+	//PHP examples
+	function SiteScreenshot($token, $url, $width, $height, $response_type = 'image') {
+
 	// Parameters.
 	$token = $token; ///YOUR_API_TOKEN
 	$url = urlencode($url);
@@ -19,4 +22,4 @@ function SiteScreenshot($token, $url, $width, $height, $response_type = 'image')
 
 	// Store the screenshot image.
 	file_put_contents('./screenshot.png', $image);
-}
+	}
