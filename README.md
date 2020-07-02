@@ -1,4 +1,6 @@
 Pikwy - Online Solution to create Screenshot
+<a style="color:white" href="https://pikwy.com/api.html">Documentation</a>
+
 
 function SiteScreenshot($token, $url, $width, $height, $response_type = 'image') {
 	// Parameters.
